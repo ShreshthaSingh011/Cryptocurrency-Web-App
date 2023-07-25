@@ -2,7 +2,7 @@ streamlit
 Image
 pandas
 matplotlib
-BeautifulSoup
+beautifulsoup4
 requests
 json
 time
