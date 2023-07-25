@@ -4,13 +4,11 @@ from PIL import Image
 import pandas as pd
 import base64
 import matplotlib.pyplot as plt
-from bs4 import BeautifulSoup
+from bs4 import beautifulsoup4
 import requests
 import json
 import time
-#---------------------------------#
-# New feature (make sure to upgrade your streamlit library)
-# pip install --upgrade streamlit
+
 
 #---------------------------------#
 # Page layout
@@ -21,7 +19,7 @@ st.set_page_config(layout="wide")
 
 image = Image.open('crypto_Web APP.jpg')
 
-st.image(image, width = 500)
+st.image(image, width = 200)
 
 st.title('Crypto Price App')
 st.markdown("""
